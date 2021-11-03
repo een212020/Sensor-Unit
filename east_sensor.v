@@ -8,7 +8,7 @@ module east_sensor(
     input [7:0] data_in;
     output reg [7:0] avg;
 
-    parameter SIZE = 2;
+    parameter SIZE = 6;
     parameter LEN = 2**SIZE;
     reg [7:0] vehicles [LEN-1:0];
     reg [7:0] i;
