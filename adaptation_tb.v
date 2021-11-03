@@ -8,7 +8,6 @@ module adaptation_tb;
     wire [7:0] TGn, TGe, TGs, TGw;
     
     initial begin
-        clk = 0;
         TGin = 10;
         TGie = 10;
         TGis = 10;
