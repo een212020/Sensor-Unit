@@ -2,7 +2,6 @@
 
 module adaptation_tb;
     reg reset;
-    reg clk;
     reg [1:0] next_road;
     reg [7:0] N_n, N_e, N_s, N_w;
     reg [7:0] TGin, TGie, TGis, TGiw;
@@ -40,7 +39,5 @@ module adaptation_tb;
         TGin, TGie, TGis, TGiw,
         TGn, TGe, TGs, TGw 
         );
-    
-    always #50 clk=~clk;
     
 endmodule
