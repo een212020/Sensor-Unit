@@ -26,9 +26,9 @@ module adaptation_tb;
         N_w = 15;
         reset = 0; #50
         next_road = 1; #50
-        N_n = 3;
+        N_n = 30;
         N_e = 34;
-        N_s = 0;
+        N_s = 25;
         N_w = 15;
         next_road = 2; #50
         next_road = 3; #50
